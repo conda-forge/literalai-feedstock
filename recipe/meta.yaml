@@ -1,5 +1,5 @@
 {% set name = "literalai" %}
-{% set version = "0.1.202" %}
+{% set version = "0.1.300" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/literalai-{{ version }}.tar.gz
-  sha256: e296fd3f8fbd72ef7bb911d14a135e50a1f6ec2f39af8e43dd981764420ec502
+  sha256: f408ebfd0f3251effe55fb84b3bf480c4790a7010d6f30a181b56cd1c3942cfb
 
 build:
   noarch: python
